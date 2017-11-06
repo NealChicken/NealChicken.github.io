@@ -1,8 +1,8 @@
-let _nextColor = "#ffff00"
+let _nextColor = "#fff42d"
 
 function flashBodyBackground() {
 	document.getElementsByTagName("body")[0].style.backgroundColor = _nextColor;
-	if (_nextColor === "#ffff00") _nextColor = "#ff00ff";
-	else _nextColor = "#ffff00";
-	setTimeout(flashBodyBackground, 500);
+	if (_nextColor === "#fff42d") _nextColor = "#f909dd";
+	else _nextColor = "#fff42d";
+	setTimeout(flashBodyBackground, 300);
 }
