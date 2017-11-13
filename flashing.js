@@ -2,7 +2,7 @@ let _nextColor = 0;
 const COLORS = ["#fff42d", "#f909dd"];
 
 let _nextImage = 0;
-const IMAGES = ["/images/lechickens.png"];
+const IMAGES = ["/images/lechickens.png", "/images/lechickens2.png"];
 
 function initFlashing() {
 	_loadImage(0);
