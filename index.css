@@ -2,5 +2,8 @@ body {
 	font-family: "Comic Sans MS", sans-serif;
 	color: #00ff00;
 	background-color: #ff00ff;
-	background-image: url("https://github.com/NealChicken/NealChicken.github.io/raw/master/lechickens.png");
+}
+
+#img-load-area {
+	display: none;
 }
