@@ -1,6 +1,6 @@
 const COLORS = ["#fff42d", "#f909dd"];
-const IMAGES = ["/images/lechickens.png", "/images/lechickens2.png"];
-const FLASH_DELAY = 50; // milliseconds between flashes
+const IMAGES = ["/images/lechickens.png", "/images/lechickens2.png", "/images/lechickens3.png"];
+const FLASH_DELAY = 45; // milliseconds between flashes
 
 let _nextColor = 0;
 let _nextImage = 0;
