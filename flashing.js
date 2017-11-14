@@ -1,4 +1,4 @@
-const COLORS = ["#fff42d", "#f909dd"];
+const COLORS = ["#fff42d", "#f909dd", "#FD5F00"];
 const IMAGES = ["/images/lechickens.png", "/images/lechickens2.png", "/images/lechickens3.png"];
 const FLASH_DELAY = 50; // milliseconds between flashes
 
