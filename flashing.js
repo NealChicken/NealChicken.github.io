@@ -7,7 +7,7 @@ let _nextImage = 0;
 
 function initFlashing() {
 	_loadImage(0);
-	_flashBodyBackground();
+	setInterval(_flashBodyBackground, FLASH_DELAY);
 }
 
 function _loadImage(num) {
@@ -25,5 +25,4 @@ function _flashBodyBackground() {
 	document.getElementsByTagName("body")[0].style.backgroundImage = "url('" + IMAGES[_nextImage] + "')";
 	_nextColor++; _nextColor %= COLORS.length;
 	_nextImage++; _nextImage %= IMAGES.length;
-	setTimeout(_flashBodyBackground, FLASH_DELAY);
 }
