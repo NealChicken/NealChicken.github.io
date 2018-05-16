@@ -5,9 +5,18 @@ let _nextColor = 0;
 
 
 function initFlashing() {
+	_loadImage(0);
 	setInterval(_flashBodyBackground, FLASH_DELAY);
 }
-
+function _loadImage(num) {
+	if (!(0 <= num && num < IMAGES.length)) return;
+	let dlImage = new Image();
+	dlImage.onload = function () {
+		document.getElementById("img-load-area").innerHTML += "<img src=\"" + this.src + "\" />";
+		_loadImage(num+1);
+	}
+	dlImage.src = IMAGES[num];
+}
 
 function _flashBodyBackground() {
 	document.getElementsByTagName("body")[0].style.backgroundColor = COLORS[_nextColor];
