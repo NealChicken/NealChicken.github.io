@@ -1,0 +1,9 @@
+body {
+	font-family: "Comic Sans MS", sans-serif;
+	color: #00ff00;
+	background-color: #ff00ff;
+}
+
+#img-load-area {
+	display: none;
+}
