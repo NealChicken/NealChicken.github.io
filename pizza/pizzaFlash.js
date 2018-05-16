@@ -1,13 +1,15 @@
 const COLORS = ["#fff42d", "#f909dd", "#FD5F00"];
 const IMAGES = ["../images/lechickens.png", "../images/lechickens2.png", "../images/lechickens3.png"];
 const FLASH_DELAY = 50; // milliseconds between flashes
-let _nextColor = 0;
 
+let _nextColor = 0;
+let _nextImage = 0;
 
 function initFlashing() {
 	_loadImage(0);
 	setInterval(_flashBodyBackground, FLASH_DELAY);
 }
+
 function _loadImage(num) {
 	if (!(0 <= num && num < IMAGES.length)) return;
 	let dlImage = new Image();
