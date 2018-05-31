@@ -3911,7 +3911,7 @@ v=y.ae(15)
 u=y.ae(9)
 y=y.bf()?1:-1
 t=document.createElement("img")
-t.src="https://icon.kisspng.com/20180408/sse/kisspng-rooster-chicken-emoji-emoticon-galliformes-rooster-5ac9cf346d1a21.3114426115231752204469.jpg"
+t.src="https://vignette.wikia.nocookie.net/hayday/images/a/a3/Chicken.png/revision/latest?cb=20150713091518"
 t.width=240
 t.height=216
 s=new X.eB(z,-216,0,x*w,v+10,u*y,t)
