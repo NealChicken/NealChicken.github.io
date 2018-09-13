@@ -3911,7 +3911,7 @@ v=y.ae(15)
 u=y.ae(9)
 y=y.bf()?1:-1
 t=document.createElement("img")
-t.src="https://vignette.wikia.nocookie.net/hayday/images/a/a3/Chicken.png/revision/latest?cb=20150713091518"
+t.src="https://vignette.wikia.nocookie.net/headsoccer/images/c/c9/Wobbly_Chicken.gif/revision/latest?cb=20160220132804"
 t.width=240
 t.height=216
 s=new X.eB(z,-216,0,x*w,v+10,u*y,t)
